@@ -23,7 +23,7 @@
           v-model="newObject[index]"
           class="p-4 rounded bg-blue-100"
           type="text"
-          :placeholder="field"
+          :placeholder="field.toString()"
         >
       </div>
       <button class="button-submit rounded bg-green-300">
